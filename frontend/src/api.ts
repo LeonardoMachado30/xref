@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/api"; // ajuste se backend estiver em outra porta
+const BASE_URL = "https://xref.onrender.com/api"; // ajuste se backend estiver em outra porta
 
 export async function getProdutos(id = "") {
   const res = await fetch(`${BASE_URL}/produto/${id}`);
